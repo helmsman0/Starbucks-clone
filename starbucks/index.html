@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" ><img src="../starbucks/images/starbucks-logo-png-1684.png" class="logo" ></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just a Coffee <br>It's <span>starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio expedita ab sed modi delectus praesentium illum soluta voluptates blanditiis, et ut!</p>
+                <a href="#">Buy a Coffee</a>
+            </div>
+        
+            <div class="imgBox">
+                <img src="images/img3.png" class="starbucks">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./images/pngwing.com (3).png" onclick="imgSlider('images/img3.png');changeCircleColor('#017143')"></li>
+            <li><img src="./images/pngwing.com (5).png" onclick="imgSlider('images/img5.png');changeCircleColor('brown')"></li>
+            <li><img src="./images/pngwing.com (6).png" onclick="imgSlider('images/img6.png');changeCircleColor('pink')"></li>
+        </ul>
+    </section>
+
+    <script src="./script.js"></script>
+    <!-- scrollreveal link -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
